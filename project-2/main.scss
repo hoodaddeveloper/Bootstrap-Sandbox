@@ -1,7 +1,6 @@
-h1 {
-  color: red;
-}
+$theme-colors: (
+  "primary": #17d4ff,
+  "secondary": #185f0d
+);
 
-body {
-  background-color: bisque;
-}
+@import "node_modules/bootstrap/scss/bootstrap.scss"
