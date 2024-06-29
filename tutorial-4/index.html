@@ -61,10 +61,20 @@
     </div>
   </div>
   <!-- Nesting -->
-   <div class="container-fluid">
-    <div class="row border border-dark" style="height: 300px;">
-      <div class="col-6"></div>
-      <div class="col-6"></div>
+   <div class="container my-5">
+    <div class="row row-cols-2 border border-dark" style="height: 300px;">
+      <div class="border border-dark">
+        <div class="row bg-success" style="height: 100px;"></div>
+        <div class="row bg-white" style="height: 100px;"></div>
+        <div class="row bg-danger" style="height: 100px;"></div>
+      </div>
+      <div class="bg-light border border-dark">
+        <div class="row row-cols-3" style="height: 100%;">
+          <div class="bg-primary"></div>
+          <div class="bg-white"></div>
+          <div class="bg-danger"></div>
+        </div>
+      </div>
     </div>
    </div>
 
